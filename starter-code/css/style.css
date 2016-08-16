@@ -1,0 +1,64 @@
+h1{color: rgb(2,132,130);}
+h2{color: #ffd700;}
+
+h1, h2, footer, p {
+	text-align: center;
+}
+
+nav {
+	background-color: #808080;
+}
+
+nav a {
+	background-color: #ffbf00;
+	color: white;
+	padding: 35px;
+	display: block;
+	float: left;
+}
+
+
+.clearfix:after { /*this means everything after nav statements will be cleared of this formatting*/
+        visibility: hidden;
+        display: block;
+        content: " ";
+        clear: both;
+        height: 0;
+        font-size: 0;
+      }
+
+a:hover {
+background-color: #ee5f3c;
+}
+
+
+.card, .board {
+	display: inline-block;
+	float: left;
+	margin: 8%;
+}
+
+.board {
+	height: 50%;
+	width: 50%;	
+	float: left;
+	margin: 8%;
+	}
+/*not sure why using inline block for just the board wouldn't work too since the cards are divs within the board div*/
+
+.card {height: 200px;
+	width: 150px;
+	border: solid black 1px;
+	border-radius: 10px;
+	background-color: yellow;
+}
+
+.name {
+	color: #ff0000;
+}
+
+
+footer {
+	background-color: #808080;
+  clear: both;
+}
